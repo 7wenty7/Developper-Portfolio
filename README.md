@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Developer Portfolio
+
+Welcome to my Developer Portfolio! This project showcases a sleek, one-page portfolio designed for developers. Built with modern technologies and a clean design, it offers a compact yet engaging presentation of your work and skills. 
+
+![Portfolio GIF Placeholder](https://github.com/7wenty7/Developper-Portfolio/blob/master/Demo.gif) 
+
+## Demo
+
+Check out the live demo of the portfolio [here](https://slimbouras.com/). 
+
+## Features
+
+- **Modern Technologies**: Utilizes Next.js for server-side rendering, Tailwind CSS for utility-first styling, ShadcnUI for elegant components, and DaisyUI for additional UI components.
+- **Clean Design**: Simple, yet effective design to highlight your work and skills without distractions.
+- **Animations**: Smooth animations to enhance user experience and add a touch of sophistication.
+- **Customizable**: Easily customizable to fit your personal branding and preferences.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this portfolio, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensure you have the following installed:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+1. Clone the repository:
+   
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   
+4. Navigate to the project directory:
 
-To learn more about Next.js, take a look at the following resources:
+  ```bash
+  cd your-repo-name
+  ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Install dependencies:
 
-## Deploy on Vercel
+  ```bash
+  yarn install
+  # or
+  npm install
+  ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Start the development server:
+
+  ```bash
+  yarn dev
+  # or
+  npm run dev
+  ```
+
+
+Your portfolio will be available at http://localhost:3000.
+
+### Customization 
+To customize the portfolio:
+
+Update Content: Modify the content in pages/index.tsx (or pape.tsx in your case) to include your projects, skills, and other relevant information.
+Style Adjustments: Adjust styles in styles/globals.css and use Tailwind's utility classes for further customization.
+Animations: Tweak animations and transitions in components/Animation.tsx to suit your preferences.
+### Deployment
+To deploy your portfolio, you can use platforms like Vercel or Netlify. Follow their documentation to connect your repository and deploy.
+
+### Contributing
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
